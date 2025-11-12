@@ -1,0 +1,82 @@
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  border: 2px solid black;
+}
+
+.header {
+  background-color: #3399ff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #3399ff;
+  display: flex;
+  justify-content: space-between; /* ให้ปุ่ม logout อยู่ขวา */
+  align-items: center;
+  padding: 10px 40px;
+}
+
+/* กลุ่มลิงก์อยู่ตรงกลาง */
+.nav-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex: 1;
+}
+
+.nav-item {
+  background-color: #66cc66;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.nav-item:hover {
+  background-color: #4caf50;
+}
+
+.nav-item.active {
+  border: 2px solid white;
+}
+
+/* ปุ่ม Logout */
+.logout-btn {
+  background-color: #ff4d4d;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.logout-btn:hover {
+  background-color: #cc0000;
+}
+
+/* ส่วนเนื้อหา */
+.outlet {
+  flex: 1;
+  background-color: #f2b632;
+  padding: 40px;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #3399ff;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}

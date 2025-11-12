@@ -1,0 +1,21 @@
+
+
+.todos-container {
+  background-color: #f9fafb;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.table-dark th {
+  background-color: #0d6efd !important;
+  color: white !important;
+}
+
+button.btn-danger i,
+button.btn-warning i {
+  font-size: 1rem;
+}
+.todos-container {
+  background-color: #fff3cd !important; 
+  border-radius: 1rem;
+}
